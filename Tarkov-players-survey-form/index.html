@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tarkov players survey form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Tarkov players survey form</h1>
+    <p id="description">The short survey is intended for my friends who play EFT</p>
+    <form id="survey-form"  method="post" >
+      <fieldset>
+        <label id="name-label" for="name">Enter your name:<input id="name" type="text" placeholder="name" required></label>
+        <label id="email-label" for="email">Enter your email:<input id="email" type="email" placeholder="email" required></label>
+        <label id="number-label" for="number">Enter the approximate number of hours spent in the game:<input id="number" type="number" min="0" max="20000" placeholder="number of hours"required></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label">What kind of player do you consider yourself to be?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Newbie</option>
+            <option value="2">Played a bit</option>
+            <option value="3">Experienced</option>
+            <option value="4">Giga Chad</option>
+            <option value="5">Dunduk</option>
+          </select>
+        </label>
+       </fieldst>
+       <fieldst>
+       <legend id="radio-label">What is your playing style?</legend>
+       <label for="pvp"><input id="pvp" type="radio" name="pvp-pve" class="inline" checked value="1">Pvp Fighter</label>
+       <label for="pve"><input id="pve" type="radio" name="pvp-pve" class="inline" value="2">Pve Looter</label>
+       <fieldset>
+        <label id="chekbox-label">What do you like most in the game?</label>
+          <label for="farming"><input id="farming" type="checkbox" name="farming" class="inline" value="1">Farming money</label>
+         <label for="kill-scavs"><input id="kill-scavs" type="checkbox" name="kill-scavs" class="inline" value="2">Kill scavs</label>
+         <label for="kill-players"><input id="kill-players" type="checkbox" name="kill-players" class="inline" value="3">Kill players</label>
+         <label for="kill-bosses"><input id="kill-bosses" type="checkbox" name="kill-players" class="inline" value="4">Kill bosses</label>
+         <label for="sniper"><input id="sniper" type="checkbox" name="sniper" class="inline" value="5">Be a sniper</label>
+         <label for="scavs"><input id="scavs" type="checkbox" name="scavs" class="inline" value="6">Playing as a scavs</label>
+         <label for="waiting"><input id="waiting" type="checkbox" name="waiting" class="inline" value="7">Wait for other players to load onto the server</label>
+      
+       </fieldset>
+       <fieldst>
+         <label for="comments">Any comments or suggestions?
+           <textarea id="comments" name="comments" rows="5" cols="60" placeholder="Have any comments...."></textarea>
+         </label>
+       </fieldset>
+       <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

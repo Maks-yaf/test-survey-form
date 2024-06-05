@@ -1,0 +1,75 @@
+body {
+    background-image:
+            url(https://www.escapefromtarkov.com/uploads/content/banners/909a2f734b22b54f2e1dbe85cb4a8ddd.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #0e0e0e;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+h1, p {
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+form {
+    background: rgba(14,14,14,0.5);
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+input,
+select,
+textarea{
+    margin: 10px 0 10 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #9a8866
+}
+
+fieldset {
+    border: none;
+    padding-left: 5px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 ;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #9a7766;
+    border-color: #9a8866;
+    min-width: 200px;
+}
+
+input, textarea {
+    background-color: #9a8866;
+    border: 1px solid #9a8866;
+    color: #ffffff;}
+
+.alingleft {
+    text-align: center;
+}
